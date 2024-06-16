@@ -1,0 +1,61 @@
+
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+            <form (ngSubmit)="register()">
+
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div data-mdb-input-init class="form-outline">
+                    <label for="userName">Username</label> <br>
+                    <input id="userName" [(ngModel)]="registerData.userName" name="userName" placeholder="Username" required>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <div data-mdb-input-init class="form-outline">
+                    <label for="email">Email</label> <br>
+                    <input id="email" type="email" [(ngModel)]="registerData.email" name="email" placeholder="Email" required>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                  <div data-mdb-input-init class="form-outline ">
+                    <label for="password">Password</label><br>
+                    <input id="password" type="password" [(ngModel)]="registerData.password" name="password" placeholder="Password" required>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <div data-mdb-input-init class="form-outline">
+                    <label for="userType">UserType</label><br>
+                    <input id="userType" [(ngModel)]="registerData.userType" name="userType" placeholder="User Type" required>
+                  </div>
+
+                </div>
+          
+              </div>
+
+
+              <div class="mt-4 pt-2">
+                <input data-mdb-ripple-init class="btn btn-primary btn-lg" type="submit" value="Register"  />
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

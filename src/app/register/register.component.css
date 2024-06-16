@@ -1,0 +1,37 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background-image: url("jess-bailey-q10VITrVYUM-unsplash.jpg");
+    background-size: cover;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to bottom right, #9A616D); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to bottom right,#9A616D) */
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+    .logoutdiv {
+        margin-left: auto;
+      }
+
+.card{
+  border-radius: 2px;
+  border-color: black;
+}
+
+.form-outline{
+  border-radius: 4px;
+  border-color: black;
+
+}
+      
